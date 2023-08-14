@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnan University of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,100;1,300;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <!-- navbar -->
+    <section class=" sub-header">
+        <nav>
+            <img class="logo" src="img/logo.png" >
+            <div class="nav-links" id="navlinks">
+                <ul>
+                    <i id="menu-close" class="fa fa-times" onclick="hidemenu()" ></i>
+                    <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="blog.html">Blog</a></li>
+                 <li><a href="courses.html">Course</a></li>
+                 <li><a href="content.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <i id="menu-open" class="fa fa-bars" onclick="showmenu()"></i>
+                    </nav>
+   <h1>Our Certificate & Online Programs</h1>
+</section>
+
+<!-- blog page content  -->
+<section class="blog-content">
+<div class="row">
+    <div class="blog-left"><img src="certificate.jpg" alt="">
+        <h2>Our Certificate & Online Programs</h2> 
+        <p>The certificates awarded by Adnan University of Technology hold immense value and recognition,
+             representing the highest standards of academic excellence and practical knowledge. Employers 
+             and industries worldwide highly regard our certificates, as they reflect the exceptional education 
+             and specialized training our students receive. With a curriculum that is constantly updated to align
+              with emerging technologies and industry demands, our certificates demonstrate the expertise and proficiency 
+              of our graduates in their respective fields.
+
+            In addition to our on-campus programs, our online courses are equally esteemed and cater to a diverse range of 
+            learners. These online courses offer flexibility, allowing students to access high-quality education from anywhere 
+            in the world, at their own pace. Our e-learning platform is designed to provide an interactive and engaging experience,
+             ensuring that students receive the same level of academic rigor and support as they would in a traditional classroom setting.
+
+            
+            Whether pursued on campus or online, our certificates and online courses empower individuals to advance their careers,
+             enhance their skills, and stay ahead in the ever-evolving technological landscape. The recognition and value associated
+              with our certificates and online courses attest to the university's commitment to providing relevant and world-class 
+              education that prepares students for success in the global marketplace.</p>
+   <div class="comment-box">
+<h3>Leave a comment</h3>
+<form class="comment-form">
+    <input type="text" placeholder="Enter Your Name">
+    <input type="email" placeholder="Enter Your Email Address">
+<textarea  rows="5" placeholder="Leave Your Comment"></textarea>
+<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+</form>
+   </div>
+                </div>
+<div class="blog-right">
+    <h3>Post Categories</h3>
+  <div>
+    <span>Business Analytics</span>
+    <span>56</span>
+
+    </div>
+    <div>
+        <span>Machine learning</span>
+        <span>89</span>
+    </div>
+    <div>
+        <span>Computer Science</span>
+        <span>35</span>
+    </div>
+    <div>
+        <span>Journalism</span>
+        <span>65</span>
+    </div>
+    <div>
+        <span>Commerece</span>
+        <span>78</span>
+    </div>
+    <div>
+        <span>Data Science</span>
+        <span>34</span>
+    </div>
+    <div>
+        <span>AutoCAD</span>
+        <span>78</span>
+        </div>
+    </div>
+</div>
+</section>
+<!-- footer -->
+<footer>
+    <h1 style="text-align: center; color: #fff;">ABOUT US</h1>
+    <p>Adnan University of Technology stands as a beacon of innovation and excellence.
+         We are happy about your visit and recommend you to
+         know more about us through our social media platforms.
+         And once more Thank you for visiting Adnan university of technology.</p>
+    <div class="footer-col">
+    <h3>Newsletter</h3>
+    <p>You can trust us.We only send promo offers,</p>
+    <div class="subscribe">
+    <input type="text" placeholder="Your Email Address">
+    <a href="#" class="yellow">SUBSCRIBE</a>
+    </div>
+    </div>
+    <div class="copyright">
+
+        <p>copyright @2023 All rights reserved | This template is made by Adnan University Of Technology</p>
+        <div class="pro-links"> 
+            <p>Reach us through social media</p>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </div>
+    </footer>
+
+<!-- ------Javascript for toggle menu----- -->
+<script>
+    var navlinks = document.getElementById("navlinks")
+    function showmenu(){
+        navlinks.style.right="0";}
+    function hidemenu(){
+        navlinks.style.right ="-200px";
+    } 
+</script>
+</body>
+</html>
